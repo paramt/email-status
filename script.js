@@ -86,7 +86,7 @@ function sanitize(){
 // called when user clicks CHECK button
 function submit(address){
   var request = new XMLHttpRequest();
-  request.open('GET', 'http://ars.fast.sheridanc.on.ca/param/email-validate.php?address='+ address, true);
+  request.open('GET', 'https://thakkaha.dev.fast.sheridanc.on.ca/pme/email-status/status.php?address='+ address, true);
 
   request.onload = function () {
     var data = JSON.parse(request.responseText);
