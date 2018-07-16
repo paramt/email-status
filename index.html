@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <title>Email Status</title>
+    <link href="https://fonts.googleapis.com/css?family=Exo:300,400,700,900" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
+    <meta name="description" content="A simple way to check if an email address exists or not.">
+    <meta name="author" content="Param Thakkar">
+  </head>
+
+  <body>
+    <div class="main" id="main">
+      <h1>Email Status</h1>
+      <input spellcheck="false" autocomplete="off" autofocus onchange="showButton(); sanitize();" onkeypress="this.onchange()" onpaste="this.onchange()" oninput="this.onchange()" id="text-input" type="text" placeholder="enter any email address here to check its status">
+      <input onclick="submit(document.getElementById('text-input').value)" id="check-btn" type="button" value="Check">
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+
+</html>

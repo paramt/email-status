@@ -1,0 +1,51 @@
+*{
+  font-family:'Exo', sans-serif;
+}
+
+body{
+  background-color:#d9d9db;
+  transition:background-color 0.5s;
+}
+
+h1{
+  font-weight:900;
+  color:#424242;
+  font-size:3em;
+  text-align:center;
+  transition:color 0.5s;
+}
+
+#text-input{
+  width:100%;
+  font-size:1.5em;
+  text-align:center;
+  padding:0px;
+  margin:0px;
+}
+
+#text-input:focus{
+  outline:none;
+}
+
+#check-btn{
+  font-size:1.6em;
+  display:none;
+  width:15%;
+  float:right;
+
+  outline:none;
+  border:none;
+  background-color:#424242;
+  color:white;
+  cursor:pointer;
+}
+
+.main{
+  width:70%;
+  margin-left:5%;
+  padding:20vh 10vw 25vh 10vw;
+
+  border:5px solid #757575;
+  background-color:white;
+  transition:border 0.5s;
+}
