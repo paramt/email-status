@@ -1,4 +1,4 @@
-*{
+h1, input{
   font-family:'Exo', sans-serif;
 }
 
@@ -19,8 +19,8 @@ h1{
   width:100%;
   font-size:1.5em;
   text-align:center;
-  padding:0px;
-  margin:0px;
+  padding:0;
+  margin:0;
 }
 
 #text-input:focus{
